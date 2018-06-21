@@ -1,0 +1,6 @@
+hash: 58aee0f517811a475c22a6f61c3abe6d2cb167a11f8c952f1f25e6740b800d3a
+updated: 2018-05-17T20:53:29.3996235+08:00
+imports:
+- name: github.com/nntaoli-project/GoEx
+  version: 12c3580b9082d796c10fc64e621515a2d4f8332f
+testImports: []

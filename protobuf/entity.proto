@@ -1,0 +1,16 @@
+syntax="proto3";
+
+package entity;
+
+enum MsgType{
+    PING=0;
+    PONG=1;
+    CMD=2;
+    MSG=3;
+}
+
+message CmdMsg{
+    uint32 magic = 1;
+    MsgType type = 2;
+    bytes data = 3;
+}
